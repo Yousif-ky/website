@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang=en-US>
+<head>
+  <meta charset="utf-8">
+  <meta content="ie=edge" http-equiv=x-ua-compatible>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
+  <meta name=Content-Security-Policy content="default-src 'self'">
+  <meta name=application-name content=Yousif()>
+  <meta property=article:author content="Yousif Khalid Yousif">
+  <meta name=subject content=Portfolio>
+  <meta name=robots content=index,follow>
+  <meta name=googlebot content=index,follow>
+  <meta property=og:type content=website>
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="application-name" content="Yousif Khalid Yousif"/>
+  <meta name=msapplication-TileColor content=#f1f1f1>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Yousif Khalid Yousif - Web Designer &amp; Developer" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="description" content="Hello i'm Yousif Kh Yousif i am a web developer and this is my portfolio" />
+  <meta property="og:site_name" content="Yousif Kh Yousif - &amp; Developer" />
+  <title>Yousif Kh Yousif</title>
+  <link rel="icon" href="media/tab.jpg">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="animate.css">
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script type="text/javascript">
+    $(window).on('load', function() {
+      $('#status').fadeOut();
+      $('#statuss').fadeOut();
+      $('#preloader').delay(350).fadeOut('slow');
+    })
+  </script>
+</head>
+<body style="overflow: hidden;">
+  <div id="preloader">
+    <div id="status"></div>
+     <div id="statuss"></div>
+  </div>
+  <div onclick="closeBox()" id="bgshadow"></div>
+  <div id="welbox">
+    <i onclick="closeBox()" class="far fa-times-circle"></i>
+    <h1>Welcome</h1>
+    <p>I'm glad you are here
+      <br>My website is not yet complete
+      <br>There are some function's that may not work<br>
+      Thanks for visiting my website. ♥/<br><br><br>- Yousif</p>
+  </div>
+
+  <div id="shareit">
+    <div id="sharebg"></div>
+    <div onclick="closeNav()" id="sharebox">
+      <i onclick="closeShare()" class="far fa-times-circle"></i>
+      <h1>Share via..</h1>
+      <br><br>
+      <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fyousif.netlify.app%2F&layout=box_count&size=large&mobile_iframe=true&width=73&height=58&appId" width="73" height="58" style="border:none;overflow:hidden" scrolling="no"
+        frameborder="0" allowTransparency="true" allow="encrypted-media">
+      </iframe>
+      <center>
+        <hr>
+        <h1>Or</h1><br>
+        <input style="padding: 10px;background: black;color: white;" type="text" value="https://yousif.netlify.app/" id="myurl">
+        <button style="padding: 5px;background: red;color: white;" onclick="myFunction()"><i class="fas fa-copy"></i> Click to copy</button>
+      </center>
+    </div>
+  </div>
+  <div id="particles-js">
+    <section id="allcontent">
+    <div id="navshadow">
+      <div onclick="closeNav()" id="shadow"></div>
+    </div>
+    <div id="sideNavigation" class="sidenav">
+      <i onclick="closeNav()+loadContent(1)" class="far fa-arrow-alt-circle-left"></i>
+      <span id="circleone"></span>
+      <span id="circletwo"></span>
+      <img Draggable="false" style="margin-bottom: 30px;margin-top: -20px;margin-left: 60px;cursor: default;" class="logo" src="media/logo.png">
+      <a href="index.html"><i class="fab fa-fort-awesome"></i> &nbsp;Home</a>
+      <a href="blog.html"><i class="fab fa-blogger-b"></i> &nbsp;Blog</a>
+      <a href="code.html"><i class="fas fa-code"></i> &nbsp;Code</a>
+      <a href="books.html"><i class="fas fa-book"></i> &nbsp;Books</a>
+      <a href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a>
+      <hr>
+      <p style="color: grey;margin: 10px;">More links</p>
+      <a href="forums.html"><i class="fab fa-wpforms"></i> &nbsp;Forums</a>
+      <div class="links">
+        <a href="#"><i class="fas fa-link"></i> &nbsp;Links <i class="fas fa-sort-down"></i> </a>
+        <div class="lm">
+          <a href="yousifware.html">YousifWare Tool</a>
+          <a href="https://www.varldenidag.se/nyheter/kristna-i-klam-i-strider-mellan-kurder-och-irak/repqjz!098OwnRtAsJoo4M8Mepzg/">varldenidag.se</a>
+        </div>
+
+      </div>
+      <a href="cv.html"><i class="fas fa-id-card"></i> &nbsp;cv</a>
+      <a href="rss.html"><i class="fas fa-rss-square"></i> &nbsp;rss</a>
+      <a onclick="openShare()" id="smicon"><i class="fas fa-share-square"></i></a>
+      <p id="copyr">© 2019 YkY<br>Yousif21yky@gmail.com</p>
+    </div>
+    <nav id="header">
+      <span class="hamlist">
+        <div id="sq1"></div>
+        <div id="sq2"></div>
+        <a id="hammenu" onclick="openNav()+loadContent(1)">
+          <svg>
+            <path d="M0,7 20,7" stroke="white" stroke-width="3" />
+            <path d="M0,14 23,14" stroke="white" stroke-width="3" />
+            <path d="M0,21 17,21" stroke="white" stroke-width="3" />
+          </svg>
+        </a>
+      </span>
+      <a href="index.html"><img Draggable="false" title="Home" class="logo" src="media/logo.png"></a>
+      <ul>
+        <li><a href="index.html" style="color: grey;"
+         class="link" title="Home">.home()</a></li>
+        <li><a href="projects.html" class="link" title="My Projects">.projects()</a></li>
+        <li><a href="blog.html" class="link" title="My Blog">.blog()</a></li>
+        <li><a href="#3" class="link" title="Contact me">.contact()</a></li>
+        <li><a href="#"><button id="resume" title="Download resume">resume <i class="fas fa-file-download"></i></button></a></li>
+      </ul>
+    </nav>
+  </section>
+    <div class="dots">
+      <a style="text-decoration: none;" href="#1"><i class="far fa-dot-circle"></i></a>
+      <br>
+      <h4 style="color: white">1</h4>
+      <a style="text-decoration: none;" href="#2"><i class="far fa-dot-circle"></i></a>
+      <br>
+      <h4 style="color: white">2</h4>
+      <a style="text-decoration: none;" href="#3"><i class="far fa-dot-circle"></i></a>
+      <br>
+      <h4 style="color: white">3</h4>
+      <a style="text-decoration: none;" href="#4"><i class="far fa-dot-circle"></i></a>
+      <br>
+      <h4 style="color: white">4</h4>
+      <br><br><br><br>
+      <i class="fas fa-long-arrow-alt-down"></i>
+    </div>
+    <div class="headtext">
+      <h1 id="headh">Hello!<br>I'm Yousif</h1>
+      <p id="headp">l'm Freelance Front-End Web Developer<br>UX/UI Designer, I have a healthy addiction to the internet, technology, I'm so passionate about all things design and tech. When I'm not making things for the web I sometimes think
+        about stuff and on rare occasions, I write about it in my<a style="color: #FF4600;" href="blog.html"> blog<i class="fas fa-caret-right"></i></a>.</p>
+      <a href="#Get-in-touch"><button id="headbtn">Get in touch <i class="fas fa-fingerprint"></i></button></a>
+      <a href="#Projects"><button id="headbtn">See more <i class="fas fa-angle-double-down"></i></button></a>
+      <div id="socialmedia">
+        <a id="smicon" href="https://www.facebook.com/yousif.yky" target="_blank">
+          <i class="fab fa-facebook-square"></i></a>
+        <a id="smicon" href="https://www.messenger.com/t/yousif.yky" target="_blank">
+          <i class="fab fa-facebook-messenger"></i></a>
+        <a id="smicon" href="https://www.instagram.com/ui.yousif/" target="_blank">
+          <i class="fab fa-instagram"></i></a>
+        <a id="smicon" href="https://dribbble.com/yousif-yky" target="_blank">
+          <i class="fab fa-dribbble-square"></i></a>
+        <a id="smicon" href="https://www.behance.net/yousif_yky" target="_blank">
+          <i class="fab fa-behance-square"></i></a>
+      </div>
+    </div>
+    <div class="headimg">
+      <img Draggable="false" id="heroimg" src="media/hero.jpg">
+    </div>
+  </div>
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+  <section class="content">
+    <span id="1"></span>
+    <h1 id="Projects">&lt;/projects&gt;</h1>
+    <center>
+      <div class="boxcon">
+        <div id="boxs" ><img Draggable="false" src="media/cake.jpg"></div>
+        <div id="boxs"><img Draggable="false" src="media/cat.jpg"></div>
+        <div id="boxs" ><img Draggable="false" src="media/web2.jpg"></div>
+        <div id="boxs"><img Draggable="false" src="media/nice.jpg"></div>
+        <div id="boxs"><img Draggable="false" src="media/web1.jpg"></div>
+        <div id="boxs" ><img Draggable="false" src="media/food.jpg"></div>
+        <div id="boxs"><img Draggable="false" src="media/brws.png"></div>
+        <div id="boxs" ><img Draggable="false" src="media/nature.jpg"></div>
+      </div>
+      <a href="projects.html"><button id="projectbtn">See All <i class="fas fa-angle-double-right"></i></button></a>
+    </center>
+    <center>
+      <div class="boxcontwo">
+        <span id="2"></span>
+        <h1 id="Skills">&lt;/skills&gt;</h1>
+        <br><h3 id="exptext">// 6+ years of experience</h3>
+        <div id="boxss">
+          <img id="codebox" src="media/code.png">
+          <h1>Coding</h1>
+          <h2><i class="fab fa-html5"></i><br>HTML5</h2>
+          <h2><i class="fab fa-css3"></i><br>CSS3</h2>
+          <h2><i class="fab fa-js-square"></i><br>JS</h2>
+          <h2><i class="fab fa-php"></i><br>PHP & MySQL</h2>
+          <h2 style="float: left;">Programming skills</h2>
+        </div>
+        <div id="boxss">
+          <img id="artbox" src="media/art.png">
+          <h1>Designing</h1>
+          <img style="width: 44px;" src="media/ps.png">
+          <h2>Adobe Photoshop</h2>
+          <img style="width: 44px;" src="media/xd.png">
+          <h2>Adobe XD</h2>
+          <img style="width: 44px;" src="media/ai.png">
+          <h2>Adobe Illustrator</h2>
+          <h2 style="float: left;">Designing skills</h2>
+        </div>
+      </div>
+    </center>
+  </section>
+  <span id="3"></span>
+</body>
+<footer>
+  <div class="footer">
+    <h1 id="Get-in-touch">Let's Get<br>Together.</h1>
+    <a href="mailto:yousif21yky@gmail.com">
+      <button id="sendmsg">
+        <h1>Send Me A Message</h1>
+      </button></a>
+    <h1 id="fh1">Hit me up if you want to talk about your<br>next project or if you just want to chat.</h1>
+    <h1 id="fh2">If you'd like to learn more about me<br>feel free to add me on one or all of the following sites.</h1>
+    <div id="socialmedia2">
+      <center>
+      <a id="smicon2" href="https://www.facebook.com/yousif.yky" target="_blank">
+        <i class="fab fa-facebook"></i></a>
+      <a id="smicon2" href="https://www.messenger.com/t/yousif.yky" target="_blank">
+        <i class="fab fa-facebook-messenger"></i></a>
+      <a id="smicon2" href="https://www.instagram.com/ui.yousif/" target="_blank">
+        <i class="fab fa-instagram"></i></a>
+      <a id="smicon2" href="https://dribbble.com/yousif-yky" target="_blank">
+        <i class="fab fa-dribbble"></i></a>
+      <a id="smicon2" href="https://www.behance.net/yousif_yky" target="_blank">
+        <i class="fab fa-behance"></i></a></center>
+    </div>
+    <div id="top">
+      <a href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>
+    </div>
+    <a id="privacy" href="privacy.html">Privacy</a>
+  </div> <span id="4"></span>
+  <center><img class="earth" src="media/earth.jpg" Draggable="false"></center>
+</footer>
+
+</html>
+        
