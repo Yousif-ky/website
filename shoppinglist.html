@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="ie=edge" http-equiv=x-ua-compatible>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="media/shopping.png">
+	<title>Shopping list</title>
+	<style type="text/css">
+		hr{
+			width: 95%;
+			border: 1px dashed black;
+
+		}
+		h1{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		h3{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			align-items: center;
+			align-self: center;
+			width: 50px;
+			height: 50px;
+			color: white;
+			background-color: darkblue;
+			border-radius: 10px;
+		}
+		time{
+			display: block;
+			width: 75%;
+			margin-bottom: 20px;
+			padding: 10px;
+			background: darkblue;
+			color: white;
+		}
+		section{
+			width: 100%;
+			background-color: lightsalmon;
+			display: flex;
+		    flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		#buylist{
+			width: 100%;
+			display: flex;
+		    flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		#buylist li{
+			color: black;
+			font-size: 2rem;
+			font-weight: bold;
+		}
+		#buylist li:hover{
+			font-size: 2.5rem;
+		}
+		#buylist p{
+			width: 100%;
+			background-color: yellow;
+			color: #111;
+			font-size: 1rem;
+			font-weight: bold;
+			padding: 10px;
+		}
+		#buylist p:hover{
+			font-size: 1.5rem;
+		}
+		#buylist button{
+			padding: 10px;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+		#donelist{
+			width: 100%;
+			color: black;
+			font-size: 1rem;
+		}
+		#donelist p{
+			background-color: lightgray;
+		}
+		#donelist img:hover{
+		    width: 25%;
+		}
+		img{
+			width: 25%;
+			transition: width 0.5s ease;
+		}
+		img:hover{
+			width: 90%;
+		}
+		#itemcon{
+			width: 80%;
+			background-color: #ffffff;
+			//box-shadow: 0px 0px 7px black;
+			margin: 10px;
+			padding: 10px;
+			border-radius: 20px;
+		}
+		.hide{
+            display: none;
+		}
+		a{
+			width: 250px;
+			color: white;
+			background-color: #111;
+			padding: 10px;
+			border-radius: 30px;
+			text-decoration-line: none;
+			box-shadow: 0px 0px 5px black;
+		}
+	</style>
+</head>
+<body>
+<section>
+	<h1>{ مهام قائمة التسوق }</h1>
+	<iframe src="https://free.timeanddate.com/clock/i83v5zm4/n11/szw110/szh110/hoc000/hbw2/hfceee/cf100/hgr0/hwc000/fdi68/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="110" height="110"></iframe>
+    <br>
+    <iframe src="https://free.timeanddate.com/clock/i83v5mno/n11/fn12/tct/pct/ftb/tt1/tw0" frameborder="0" width="158" height="16" allowtransparency="true"></iframe>
+	<hr>
+	<div id="buylist">
+    <h2>: إليك قائمة المشتريات التي يجب شرائها</h2>
+    <a href="https://yousif.netlify.app/shoppinglist">إلغاء شطب الكل</a>
+    <!-- ...........below this line show items......... -->
+    <p>لايوجد اي طلبيات في القائمة</p>
+
+<span class="hide"><!-- ...........below this line hide items......... -->
+
+ <!-- ...........ITEM.....1.... -->
+<div id="itemcon"><h3>1</h3><div id="cls1">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls1()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM.....2.... -->
+<div id="itemcon"><h3>2</h3><div id="cls2">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls2()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+     <!-- ...........ITEM.....3.... -->
+<div id="itemcon"><h3>3</h3><div id="cls3">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls3()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+     <!-- ...........ITEM......... -->
+<div id="itemcon"><h3>4</h3><div id="cls4">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls4()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+     <!-- ...........ITEM......... -->
+<div id="itemcon"><h3>5</h3><div id="cls5">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls5()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+     <!-- ...........ITEM......... -->
+<div id="itemcon"><h3>6</h3><div id="cls6">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls6()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+     <!-- ...........ITEM......... -->
+<div id="itemcon"><h3>7</h3><div id="cls7">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls7()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+     <!-- ...........ITEM......... -->
+<div id="itemcon"><h3>8</h3><div id="cls8">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls8()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+     <!-- ...........ITEM......... -->
+<div id="itemcon"><h3>9</h3><div id="cls9">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls9()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+     <!-- ...........ITEM......... -->
+<div id="itemcon"><h3>10</h3><div id="cls10">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls10()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+     <!-- ...........ITEM......... -->
+<div id="itemcon"><h3>11</h3><div id="cls11">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls11()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+     <!-- ...........ITEM......... -->
+<div id="itemcon"><h3>12</h3><div id="cls12">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls12()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>13</h3><div id="cls13">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls13()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>14</h3><div id="cls14">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls14()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>15</h3><div id="cls15">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls15()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>16</h3><div id="cls16">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls16()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>17</h3><div id="cls17">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls17()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>18</h3><div id="cls18">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls18()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>19</h3><div id="cls19">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls19()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>20</h3><div id="cls20">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls20()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>21</h3><div id="cls21">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls21()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>22</h3><div id="cls22">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls22()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>23</h3><div id="cls23">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls23()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>24</h3><div id="cls24">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls24()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>25</h3><div id="cls25">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls25()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>26</h3><div id="cls26">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls26()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>27</h3><div id="cls27">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls27()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>28</h3><div id="cls28">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls28()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>29</h3><div id="cls29">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls29()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+<!-- ...........ITEM......... -->
+<div id="itemcon"><h3>30</h3><div id="cls30">
+    <li></li>
+    <p></p>
+    <img src="">
+    <hr>
+    <button onclick="cls30()">أشطب الغرض</button>
+</div>
+<img style="width: 30px;" src="media/shopping.png">
+</div>
+
+</span>
+	</div>
+	<div id="donelist">
+	<h1>سجل التاريخ</h1>
+    
+
+    <time datetime="2021-12-13">13-12-2021</time>
+    <!-- ...........ITEM......... -->
+    <li>كوكاكولا</li>
+    <p>السعر: 1 دينار</p>
+    <hr>
+    <!-- ...........ITEM......... -->
+    <li>أدوية لماما</li>
+    <p>السعر: 5.50 دينار</p>
+    <hr>
+    <!-- ...........ITEM......... -->
+    <li>برغر</li>
+    <p>السعر: 8 دينار</p>
+    <hr>
+    <time datetime="2021-12-12">12-12-2021</time>
+    <!-- ...........ITEM......... -->
+    <li>كوكاكولا</li>
+    <p>السعر: 1 دينار</p>
+    <hr>
+    <!-- ...........ITEM......... -->
+    <li>دانيت</li>
+    <p>العدد: 4 السعر: 1.16 دينار</p>
+    <hr>
+    <!-- ...........ITEM......... -->
+    <li>حليب مراعي</li>
+    <p>السعر: 1دينار</p>
+    <hr>
+<!-- ...........ITEM......... -->
+    <li>لحم مفروم للفطور</li>
+    <p>السعر: 1 دينار</p>
+    <hr>
+
+
+<time datetime="2021-12-11">بدأ في 2021-12</time>
+</div>
+</section>
+<h1 style="padding: 10px;font-size: 1rem;background: linear-gradient(60deg, #2B2E4A 0%, #2B2E4A 30%, #E84545 calc(30% + 1px), #E84545 60%, #903749 calc(60% + 1px), #903749 70%, #53354A calc(70% + 1px), #53354A 100%);">
+Created with ♥ by Yousif ©2022</h1>
+<script>
+	function cls1() {
+    document.getElementById("cls1").style.textDecorationLine = "line-through";}
+    function cls2() {
+    document.getElementById("cls2").style.textDecorationLine = "line-through";}
+    function cls3() {
+    document.getElementById("cls3").style.textDecorationLine = "line-through";}
+    function cls4() {
+    document.getElementById("cls4").style.textDecorationLine = "line-through";}
+    function cls5() {
+    document.getElementById("cls5").style.textDecorationLine = "line-through";}
+    function cls6() {
+    document.getElementById("cls6").style.textDecorationLine = "line-through";}
+    function cls7() {
+    document.getElementById("cls7").style.textDecorationLine = "line-through";}
+    function cls8() {
+    document.getElementById("cls8").style.textDecorationLine = "line-through";}
+    function cls9() {
+    document.getElementById("cls9").style.textDecorationLine = "line-through";}
+    function cls10() {
+    document.getElementById("cls10").style.textDecorationLine = "line-through";}
+    function cls11() {
+    document.getElementById("cls11").style.textDecorationLine = "line-through";}
+    function cls12() {
+    document.getElementById("cls12").style.textDecorationLine = "line-through";}
+    function cls13() {
+    document.getElementById("cls13").style.textDecorationLine = "line-through";}
+    function cls14() {
+    document.getElementById("cls14").style.textDecorationLine = "line-through";}
+    function cls15() {
+    document.getElementById("cls15").style.textDecorationLine = "line-through";}
+    function cls16() {
+    document.getElementById("cls16").style.textDecorationLine = "line-through";}
+    function cls17() {
+    document.getElementById("cls17").style.textDecorationLine = "line-through";}
+    function cls18() {
+    document.getElementById("cls18").style.textDecorationLine = "line-through";}
+    function cls19() {
+    document.getElementById("cls19").style.textDecorationLine = "line-through";}
+    function cls20() {
+    document.getElementById("cls20").style.textDecorationLine = "line-through";}
+    function cls21() {
+    document.getElementById("cls21").style.textDecorationLine = "line-through";}
+    function cls22() {
+    document.getElementById("cls22").style.textDecorationLine = "line-through";}
+    function cls23() {
+    document.getElementById("cls23").style.textDecorationLine = "line-through";}
+    function cls24() {
+    document.getElementById("cls24").style.textDecorationLine = "line-through";}
+    function cls25() {
+    document.getElementById("cls25").style.textDecorationLine = "line-through";}
+    function cls26() {
+    document.getElementById("cls26").style.textDecorationLine = "line-through";}
+    function cls27() {
+    document.getElementById("cls27").style.textDecorationLine = "line-through";}
+    function cls28() {
+    document.getElementById("cls28").style.textDecorationLine = "line-through";}
+    function cls29() {
+    document.getElementById("cls29").style.textDecorationLine = "line-through";}
+    function cls30() {
+    document.getElementById("cls30").style.textDecorationLine = "line-through";}
+</script>
+</body>
+</html>
